@@ -11,9 +11,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  length = array.length
-  length.times do |index|
-    return array.max(index)
+  
 end
 
 def find_min_value(array)
