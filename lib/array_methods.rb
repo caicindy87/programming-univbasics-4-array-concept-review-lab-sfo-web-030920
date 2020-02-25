@@ -20,7 +20,7 @@ end
 def find_min_value(array)
   # Add your solution here
   length = array.length
-  length.time do |index|
+  length.times do |index|
     return array.min()
   end
 end
