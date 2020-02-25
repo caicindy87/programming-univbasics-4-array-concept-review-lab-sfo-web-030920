@@ -19,7 +19,8 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  array.length.times {|index|
-  return array.min()}
+  length = array.length
+  length.times do |index|
+    return array.min()
   end
 end
