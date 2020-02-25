@@ -20,6 +20,6 @@ end
 def find_min_value(array)
   # Add your solution here
   array.length.times {|index|
-  array.min()}
+  puts array.min()}
   end
 end
